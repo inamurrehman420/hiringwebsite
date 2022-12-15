@@ -4,9 +4,8 @@
 
 <!-- meta tags -->
 <meta charset="utf-8">
-<meta name="keywords" content="bootstrap 5, premium, multipurpose, sass, scss, saas, rtl">
-<meta name="description" content="Multipurpose Bootstrap5 Template">
-<meta name="author" content="www.themeht.com">
+<meta name="keywords" >
+<meta name="description">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Title -->
@@ -68,10 +67,9 @@
       <div class="row">
         <!--menu start-->
         <div class="col">
-          <nav class="navbar navbar-expand-lg p-4 shadow bg-white">
+          <nav class="navbar navbar-expand-lg p-4 shadow" style="    background-color: #f7f7f7;">
             <a class="navbar-brand logo" href="index.html">
-<!--              <img class="img-fluid" src="images/images-logo.png" alt="">-->
-              Visumify
+              <img class="img-fluid" src="images/hor-logo.jfif" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -91,8 +89,10 @@
               </ul>
             </div>
             <div class="d-flex align-items-center">
-              <a class="login-btn btn-link" href="login.html">
-                <i class="bi bi-person me-2 fs-3 align-middle"></i>Recruiter Login </a>
+              <a class="login-btn btn-link ms-4" data-bs-toggle="modal" data-bs-target="#staticBack">
+                <i class="bi bi-arrow-bar-up me-2 "></i>Join Us </a>
+              <a class="login-btn btn-link ms-4"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <i class="bi bi-box-arrow-in-right me-2"></i>Sign In </a>
               <div class="right-menu ms-4">
                 <button class="navbar-toggler d-block border-0 p-3 bg-white shadow" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                   <i class="bi bi-list-nested fs-3 text-dark"></i>
@@ -115,20 +115,21 @@
       </button>
     </div>
     <div class="offcanvas-body px-md-10 px-4 py-8">
-      <p class="mb-0 text-white lead">visumify - </p>
+      <img class="img-fluid side-logo mb-3" src="images/4198-images-favicon.jfif" alt="">
+      <p class="mb-0 text-white lead">visumify - Multipurpose Bootstrap5 Template is Most PowerFull template 2022 For Everyone, Start working with an company that provide everything you need to generate awareness.</p>
       <div class="form-info border-top border-dark pt-6 mt-6">
         <h5 class="text-white border-bottom border-white d-inline-block">Contact info</h5>
         <ul class="contact-info list-unstyled mt-4">
           <li class="mb-4 h6 text-light">
-            <i class="text-primary fs-4 align-middle bi bi-geo-alt me-2"></i> Islamabad
+            <i class="text-primary fs-4 align-middle bi bi-geo-alt me-2"></i> 423B, Road Wordwide Country, Pakistan
           </li>
           <li class="mb-4 h6">
             <i class="text-primary fs-4 align-middle bi bi-telephone me-2"></i>
-            <a class="text-light" href="tel:+92345678900">+91-234-567-8900</a>
+            <a class="text-light" href="tel:+912345678900">+92-234-567-8900</a>
           </li>
           <li class="h6">
             <i class="text-primary fs-4 align-middle bi bi-envelope me-2"></i>
-            <a class="text-light" href="mailto:themeht23@gmail.com"> inam23@gmail.com</a>
+            <a class="text-light" href="mailto:themeht23@gmail.com"> Inamt23@gmail.com</a>
           </li>
         </ul>
       </div>
@@ -174,11 +175,11 @@
 <section class="overflow-hidden position-relative">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-12 col-lg-6 order-lg-1 ms-auto mb-8 mb-lg-0">
+      <div class="col-12 col-lg-4 order-lg-1 ms-auto mb-8 mb-lg-0">
         <!-- Image -->
         <lottie-player src="https://lottie.host/3ddc0e30-a9f7-48e1-9b8d-a0ead2fa5ee4/JrQpGMHV6n.json" background="transparent" speed="1" style="width: auto; height: auto;" loop autoplay></lottie-player>
       </div>
-      <div class="col-12 col-lg-5">
+      <div class="col-12 col-lg-7">
         <h1 class="font-w-4 mb-4"> Direct  <span class="title-bg text-primary position-relative font-w-7 d-inline-block">Hiring </span>
         </h1>
         <!-- Text -->
@@ -189,7 +190,14 @@
         </p>
         <form id="mc-form1" class="group">
           <div class="form-group bg-light p-3 rounded-4 z-index-1 mb-0 d-flex align-items-center">
-            <input type="email" value="" name="EMAIL" class="email form-control border-0 shadow-sm me-2 bg-white" id="mc-email1"  required="">
+            <input type="email" value="" name="EMAIL" class="email form-control border-0 shadow-sm me-2 bg-white" placeholder="Search Keywords">
+            <select class="form-select email form-control border-0 shadow-sm me-2 bg-white" aria-label="Default select example">
+              <option selected>All specialisms</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+
             <input class="btn btn-dark" type="submit" name="subscribe" value="Start Hiring">
           </div>
         </form>
@@ -825,6 +833,147 @@
 <!--footer end-->
 
 </div>
+
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Sign In</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <input type="email" class="form-control"  placeholder="User Name">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control"  placeholder="Email">
+          </div>
+          <a class="fs-6">
+            Forgot Password?
+          </a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary w-100">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- page wrapper end -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBack" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdrop">Sign Up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                <i class="bi bi-person-up"></i>
+                Candidate</button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+
+                Employer</button>
+            </div>
+          </nav>
+          <div class="tab-content mt-3" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+
+              <div class="mb-3">
+                <input type="email" class="form-control"  placeholder="User Name">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control"  placeholder="Email">
+              </div>
+
+
+              <div class="mb-3">
+                <input type="email" class="form-control"  placeholder="Password">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control"  placeholder="Phone Number">
+              </div>
+
+              <select class="form-select mb-3" aria-label="Default select example">
+                <option selected>Please Select specialism</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+              <select class="form-select mb-3" aria-label="Default select example">
+                <option selected>Allow in search & listing</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+              </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+
+
+              <div class="mb-3">
+                <input type="email" class="form-control"  placeholder="User Name">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control"  placeholder="Email">
+              </div>
+
+
+              <div class="mb-3">
+                <input type="email" class="form-control"  placeholder="Password">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control"  placeholder="Phone Number">
+              </div>
+
+              <select class="form-select mb-3" aria-label="Default select example">
+                <option selected>Please Select specialism</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+              <select class="form-select mb-3" aria-label="Default select example">
+                <option selected>Allow in search & listing</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary w-100">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- page wrapper end -->
 
