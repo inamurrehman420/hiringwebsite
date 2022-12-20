@@ -1,8 +1,3 @@
-/* ------------------------------------------------
-  Project:   Taypo - Multipurpose Bootstrap5 Template
-  Author:    ThemeHt
------------------------------------------------- */
-
 :root {
   --primary: #ff150e;
   --white: #ffffff;
@@ -114,6 +109,12 @@ p{
 
 small{
   color:#176e5c;
+}
+
+
+.btn-outline-primary {
+  color: #176e5c !important;
+  border-color: #176e5c !important;
 }
 
 
